@@ -7,7 +7,11 @@ var LOGGER = log4js.getLogger('web-server.js');
 
 // TODO: This weird URL probably means the web torrentClient project should be
 // TODO: separate or encapsulate node-torrent in some form...
-var Client = require('./../../node-torrent');
+<<<<<<< HEAD
+var Client = require('./../');
+=======
+var Client = require('./../../node-torrent-webapp');
+>>>>>>> c074de14a977702d3aa6a983f7b0e42d2e5074a5
 
 var defaultOptions = {
     "downloadPath": "C:\\Downloads",
